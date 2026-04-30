@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fbe5508d709434d25878593f28cb80ef, type: 3}
+  m_Name: GameConfig
+  m_EditorClassIdentifier: 
+  startingBalance: 500
+  betOptions: 0a0000003200000064000000
+  symbolCellHeight: 150
+  visibleSymbolCount: 3
+  reelStripLength: 30
+  reelSpinDurations:
+  - 1.8
+  - 2.3
+  - 2.8
+  spinScrollSpeed: 2500
+  symbols:
+  - {fileID: 11400000, guid: 2b7d0e3add9064a5aac79e93fbfc2031, type: 2}
+  - {fileID: 11400000, guid: 146808be124cf406fb2bbd41f901b870, type: 2}
+  - {fileID: 11400000, guid: 2f43e09173ae9482697f7885ca5ab6d8, type: 2}
+  - {fileID: 11400000, guid: 08978a1d87ab5476982530ca8c0fc3d0, type: 2}
