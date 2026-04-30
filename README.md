@@ -1,25 +1,25 @@
-# 🎰 Jackpot Slot Machine — Unity Project
+Jackpot Slot Machine — Unity Project
 
 A feature-complete 3-reel slot machine game built for Unity with smooth animations,
 weighted RNG, multiple bet amounts, and jackpot bonus features.
 
 ---
 
-## 🎮 Game Overview
+Game Overview
 
 A classic 3-reel slot machine with 4 symbols (7, Cherry, Bell, BAR).
 Win by landing the same symbol on all 3 reels on the payline.
 
 | Symbol | Multiplier | Frequency |
 |--------|-----------|-----------|
-| 🎰 Seven | 500× | Rare (weight: 5) |
-| 🍒 Cherry | 20× | Uncommon (weight: 20) |
-| 🔔 Bell | 10× | Common (weight: 25) |
-| 📊 BAR | 5× | Most common (weight: 50) |
+|  Seven | 500× | Rare (weight: 5) |
+|  Cherry | 20× | Uncommon (weight: 20) |
+|  Bell | 10× | Common (weight: 25) |
+|  BAR | 5× | Most common (weight: 50) |
 
 ---
 
-## 🚀 How to Run the WebGL Build
+ How to Run the WebGL Build
 
 1. Open the `/Build/WebGL` folder.
 2. Open a local server (e.g., `python3 -m http.server 8080`).
@@ -28,7 +28,7 @@ Win by landing the same symbol on all 3 reels on the payline.
 
 ---
 
-## 📁 Project Structure
+ Project Structure
 
 ```
 Assets/
@@ -54,7 +54,7 @@ Assets/
 
 ---
 
-## 💡 Bonus Features
+ Bonus Features
 
 - **Staggered reel stops** — reels stop one after another for suspense
 - **Jackpot particles** — particle burst on 3× Seven
@@ -64,7 +64,7 @@ Assets/
 
 ---
 
-## 🧠 Thought Process
+ Thought Process
 
 1. **RNG fairness**: Weighted random for each reel independently ensures true randomness.
    Symbol weights directly control expected RTP (return-to-player).
